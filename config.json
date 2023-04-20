@@ -1,9 +1,5 @@
 {
     "captcha_api_key": "",
-    "tokens": [
-        "token1",
-        "token2"
-    ],
     "inviteCode": "serverInviteCode",
     "joinDelay": 3000,
     "boost": {
