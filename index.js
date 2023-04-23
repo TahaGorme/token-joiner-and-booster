@@ -16,7 +16,7 @@ var failed = 0;
 const fs = require("fs");
 //read from tokens.txt
 const tokens = fs.readFileSync("tokens.txt", "utf-8").split("\n");
-
+console.log(tokens.length)
 tokens.forEach(async (token, index) => {
   await new Promise((resolve) => setTimeout(resolve, index * config.joinDelay));
   doEverything(token);
@@ -42,7 +42,7 @@ async function doEverything(token) {
             console.log("Joined server as " + client.user.tag);
             totalJoined++;
 
-            if (client.token === config.tokens[config.tokens.length - 1]) {
+            if (client.token === tokens[tokens.length - 1]) {
               console.log(
                 `Joined ${totalJoined} servers and failed to join ${failed} servers`
               );
@@ -63,7 +63,7 @@ async function doEverything(token) {
 
             console.error(err);
 
-            if (client.token === config.tokens[config.tokens.length - 1]) {
+            if (client.token === tokens[tokens.length - 1]) {
               console.log(
                 `Joined ${totalJoined} servers and failed to join ${failed} servers`
               );
