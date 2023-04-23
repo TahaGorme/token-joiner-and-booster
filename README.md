@@ -48,7 +48,8 @@ If server boosting is enabled, the program will wait for the specified delay bef
 
 The program includes error handling for unhandled rejections and uncaught exceptions. If an error occurs, the program will log the error message and continue running.
 
-
+## Discord Server
+https://discord.gg/HGfFFUQ7F7
 
 ## Contributing
 Pull requests are welcomed. For major changes, please open an issue first to discuss what you would like to change.
