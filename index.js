@@ -15,14 +15,23 @@ var failed = 0;
 
 const fs = require("fs");
 //read from tokens.txt
-const tokens = fs.readFileSync("tokens.txt", "utf-8").split("\n");
-console.log(tokens.length)
-tokens.forEach(async (token, index) => {
-  await new Promise((resolve) => setTimeout(resolve, index * config.joinDelay));
-  doEverything(token);
-});
+async function readTokens() {
+  const tokens = fs.readFileSync("tokens.txt").toString().split("\n");
+
+  for (i in tokens) {
+    await new Promise((resolve) => setTimeout(resolve, i * config.joinDelay));
+    doEverything(tokens[i]?.trim()?.replace("\n", ""));
+  }
+}
+readTokens();
+
+// tokens.forEach(async (token, index) => {
+//   await new Promise((resolve) => setTimeout(resolve, index * config.joinDelay));
+//   doEverything(token);
+// });
 
 async function doEverything(token) {
+  console.log(token);
   const client = config.captcha_api_key
     ? new Client({
         captchaService: "2captcha",
