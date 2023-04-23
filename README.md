@@ -30,7 +30,6 @@ node .
 The config.json file contains the following properties:
 
 - `captcha_api_key`: (optional) Your 2captcha API key for solving captchas.
-- `tokens`: An array of Discord account tokens.
 - `inviteCode`: The invite code for the Discord server you wish to join.
 - `joinDelay`: The delay (in milliseconds) between each join attempt.
 - `boost`: (optional) An object containing properties for server boosting.
@@ -40,7 +39,7 @@ The config.json file contains the following properties:
 
 ### Program Usage
 
-The program will automatically attempt to join the server using each token provided in the config file. The `joinDelay` property determines the delay between each join attempt. 
+The program will automatically attempt to join the server using each token provided in the tokens.txt file. The `joinDelay` property determines the delay between each join attempt. 
 
 If server boosting is enabled, the program will wait for the specified delay before boosting the server with the first available boost.
 
