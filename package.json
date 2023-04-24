@@ -11,8 +11,5 @@
   "dependencies": {
     "2captcha": "^3.0.5",
     "discord.js-selfbot-v13": "^2.13.2"
-  },
-  "pkg": {
-    "assets": "node_modules/**/*.*"
   }
 }
