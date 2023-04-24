@@ -20,18 +20,16 @@ async function readTokens() {
 
   for (i in tokens) {
     await new Promise((resolve) => setTimeout(resolve, i * config.joinDelay));
-    doEverything(tokens[i]?.trim()?.replace("\n", ""));
+    doEverything(
+      tokens[i]?.trim()?.replace("\r", "")?.replace("\n", ""),
+      tokens
+    );
   }
 }
 readTokens();
 
-// tokens.forEach(async (token, index) => {
-//   await new Promise((resolve) => setTimeout(resolve, index * config.joinDelay));
-//   doEverything(token);
-// });
-
-async function doEverything(token) {
-  console.log(token);
+async function doEverything(token, tokens) {
+  // console.log(token);
   const client = config.captcha_api_key
     ? new Client({
         captchaService: "2captcha",
@@ -83,5 +81,12 @@ async function doEverything(token) {
         console.error(err);
       });
   });
-  client.login(token);
+  client.login(token).catch(() => {
+    console.log("The token "+token + " is invalid.");
+    if (client.token === tokens[tokens.length - 1]) {
+      console.log(
+        `Joined ${totalJoined} servers and failed to join ${failed} servers`
+      );
+    }
+  });
 }
