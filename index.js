@@ -32,7 +32,7 @@ async function doEverything(token, tokens) {
   // console.log(token);
   const client = config.captcha_api_key
     ? new Client({
-        captchaService: "2captcha",
+        captchaService: config.captcha_service.toLowerCase(),
         captchaKey: config.captcha_api_key,
         checkUpdate: false,
       })
