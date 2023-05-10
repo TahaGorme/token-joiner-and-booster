@@ -1,6 +1,6 @@
 # Discord Server Joiner and Booster
 
-Discord Server Joiner and Booster is a script that allows you to automatically join a Discord server using multiple user tokens and boost them. This script also supports server boosting and 2captcha API key for captcha solving.
+Discord Server Joiner and Booster is a script that allows you to automatically join a Discord server using multiple user tokens and boost them. This script also supports server boosting and 2captcha API and Capmonster.cloud API key for captcha solving.
 
 
 
@@ -28,8 +28,8 @@ node .
 ## Config
 
 The config.json file contains the following properties:
-
-- `captcha_api_key`: (optional) Your 2captcha API key for solving captchas.
+- `captcha_service`: (optional) Your Captcha service (2Captcha or Capmonster)
+- `captcha_api_key`: (optional) Your 2captcha or Capmonster API key for solving captchas.
 - `inviteCode`: The invite code for the Discord server you wish to join.
 - `joinDelay`: The delay (in milliseconds) between each join attempt.
 - `boost`: (optional) An object containing properties for server boosting.
