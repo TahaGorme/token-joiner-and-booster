@@ -79,7 +79,7 @@ async function doEverything(token, tokens) {
         await invite
           .acceptInvite(true)
           .then(async () => {
-            console.log(chalk.greenBright(`Joined ${gradient.passion(guild.name)} as ${gradient.passion(client.user.tag)}`));
+            console.log(chalk.greenBright(`Joined` as ${gradient.passion(client.user.tag)}`));
             totalJoined++;
             process.title = `Joined: ${totalJoined} | Failed: ${failed}`;
 
@@ -94,7 +94,7 @@ async function doEverything(token, tokens) {
                 const allBoosts = await client.billing.fetchGuildBoosts();
                 const firstBoost = allBoosts.first();
                 await firstBoost.subscribe(config.boost.serverId);
-                console.log(`${chalk.greenBright("[SUCCESS]")} Boosted ${gradient.passion(guild.name)} as ${gradient.cristal(client.user.tag)}}`);
+                console.log(`${chalk.greenBright("[SUCCESS]")} Boosted Server as ${gradient.cristal(client.user.tag)}}`);
               }, config.boost.delay);
             }
           })
