@@ -3,6 +3,7 @@
     "captcha_api_key": "",
     "inviteCode": "serverInviteCode",
     "joinDelay": 3000,
+    "useProxies": true,
     "boost": {
         "enabled": false,
         "delay": 3000,
