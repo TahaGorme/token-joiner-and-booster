@@ -1,4 +1,5 @@
 {
+    "captcha_service": "capmonster/2captcha",
     "captcha_api_key": "",
     "inviteCode": "serverInviteCode",
     "joinDelay": 3000,
