@@ -99,7 +99,7 @@ async function doEverything(token, tokens) {
             }
           })
           .catch((err) => {
-            console.log(`${chalk.redBright("[ERROR]")} Failed to join ${gradient.passion(guild.name)} as ${gradient.fruit(client.user.tag)}`);
+            console.log(`${chalk.redBright("[ERROR]")} Failed to join as ${gradient.fruit(client.user.tag)}`);
             failed++;
             process.title = `Joined: ${totalJoined} | Failed: ${failed}`;
 
