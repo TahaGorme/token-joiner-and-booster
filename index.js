@@ -79,7 +79,7 @@ async function doEverything(token, tokens) {
         await invite
           .acceptInvite(true)
           .then(async () => {
-            console.log(chalk.greenBright(`Joined` as ${gradient.passion(client.user.tag)}`));
+            console.log(chalk.greenBright(`Joined as ${gradient.passion(client.user.tag)}`));
             totalJoined++;
             process.title = `Joined: ${totalJoined} | Failed: ${failed}`;
 
