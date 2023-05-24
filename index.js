@@ -92,9 +92,15 @@ async function doEverything(token, tokens) {
             if (config.boost.enabled) {
               setTimeout(async () => {
                 const allBoosts = await client.billing.fetchGuildBoosts();
-                const firstBoost = allBoosts.first();
-                await firstBoost.subscribe(config.boost.serverId);
-                console.log(`${chalk.greenBright("[SUCCESS]")} Boosted Server as ${gradient.cristal(client.user.tag)}}`);
+                allBoosts.each(async (boost) => {
+                  await boost.unsubscribe().catch((err) => { });
+                  setTimeout(async () => {
+                    await boost.subscribe(config.boost.serverId);
+                    console.log(`${chalk.greenBright("[SUCCESS]")} Boosted Server as ${gradient.cristal(client.user.tag)}}`);
+
+                  }, 500);
+                });
+
               }, config.boost.delay);
             }
           })
