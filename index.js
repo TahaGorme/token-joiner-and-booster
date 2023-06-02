@@ -12,7 +12,7 @@ process.on("uncaughtException", (err, origin) => {
 const gradient = require('gradient-string');
 
 const config = require("./config.json");
-const { Client } = require("discord.js-selfbot-v13");
+const { Client } = require("discord.js-selfbot-v13-proxy");
 var totalJoined = 0;
 var failed = 0;
 const HttpsProxyAgent = require('https-proxy-agent');
