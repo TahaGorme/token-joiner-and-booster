@@ -51,6 +51,8 @@ async function doEverything(token, tokens) {
         captchaKey: config.captcha_api_key,
         checkUpdate: false,
         http: { agent: agent },
+        captchaWithProxy: true,
+        proxy: randomProxy,
         restRequestTimeout: 60 * 1000,
         interactionTimeout: 60 * 1000,
         restWsBridgeTimeout: 5 * 1000
