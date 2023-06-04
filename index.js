@@ -127,7 +127,7 @@ async function doEverything(token, tokens) {
       });
   });
   client.login(token).catch(() => {
-    console.log(`${chalk.redBright("[ERROR]")} Invalid token ${gradient.instagram(token)}}`);
+    console.log(`${chalk.redBright("[ERROR]")} Invalid token ${gradient.instagram(token)}`);
     if (client.token === tokens[tokens.length - 1]) {
       console.log(`${chalk.magentaBright("[INFO]")} Joined ${gradient.passion(totalJoined)} servers and failed to join ${gradient.passion(failed)} servers}`)
 
