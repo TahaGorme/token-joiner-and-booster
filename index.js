@@ -12,7 +12,7 @@ process.on("uncaughtException", (err, origin) => {
 const gradient = require('gradient-string');
 
 const config = require("./config.json");
-const { Client } = require("discord.js-selfbot-v13-proxy");
+const { Client } = require("discord.js-selfbot-v13");
 var totalJoined = 0;
 var failed = 0;
 const HttpsProxyAgent = require('https-proxy-agent');
@@ -21,7 +21,7 @@ const fs = require("fs");
 
 
 
-console.log(gradient.rainbow("Token Joiner by T4H4"));
+console.log(gradient.rainbow("Token Joiner by @uutu"));
 
 async function readTokens() {
   const tokens = fs.readFileSync("tokens.txt").toString().split("\n");
