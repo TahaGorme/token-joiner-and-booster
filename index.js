@@ -158,15 +158,15 @@ async function doEverything(token, tokens) {
         console.error(err)
       })
   })
-  client.login(token).catch(() => {
+  client.login(token).catch((err) => {
     console.log(
-      `${chalk.redBright("[ERROR]")} Invalid token ${gradient.instagram(token)}`
+      `${chalk.redBright("[ERROR]")} Invalid token ${gradient.instagram(token)}`, err
     )
     if (client.token === tokens[tokens.length - 1]) {
       console.log(
         `${chalk.magentaBright("[INFO]")} Joined ${gradient.passion(
           totalJoined
-        )} servers and failed to join ${gradient.passion(failed)} servers}`
+        )} servers and failed to join ${gradient.passion(failed)} servers`
       )
 
       process.title = `Joined: ${totalJoined} | Failed: ${failed}`
