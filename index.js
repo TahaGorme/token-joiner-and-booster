@@ -154,7 +154,7 @@ async function doEverything(token, tokens) {
       })
       .catch((err) => {
         if (err.toString().includes("Unknown Invite"))
-          return console.log(`${chalk.redBright("[ERROR]")} Unknown Invite`)
+          return console.log(`${chalk.redBright("[ERROR]")} Unknown Invite: The provided invite (${inviteCode}) is invalid or formatted incorrectly.`)
         console.error(err)
       })
   })
