@@ -1,7 +1,7 @@
 {
     "captcha_service": "capmonster/2captcha",
     "captcha_api_key": "",
-    "inviteCode": "serverInviteCode",
+    "invite": "Invite / InviteCode",
     "joinDelay": 3000,
     "useProxies": false,
     "boost": {
