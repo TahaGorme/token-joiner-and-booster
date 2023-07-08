@@ -30,7 +30,7 @@ node .
 The config.json file contains the following properties:
 - `captcha_service`: (optional) Your Captcha service (2Captcha or Capmonster)
 - `captcha_api_key`: (optional) Your 2captcha or Capmonster API key for solving captchas.
-- `inviteCode`: The invite code for the Discord server you wish to join.
+- `invite`: The invite or invite code for the Discord server you wish to join.
 - `joinDelay`: The delay (in milliseconds) between each join attempt.
 - `useProxies`: Enable it if you want to use proxies (fill proxies in proxies.txt)
 - `boost`: (optional) An object containing properties for server boosting.
