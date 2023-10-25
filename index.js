@@ -11,7 +11,7 @@ process.on("unhandledRejection", (reason, promise) => {
 
 process.on("uncaughtException", (err, origin) => {
   console.log(
-    `${chalk.redBright("[ERROR]")} Uncaught exception: ${err} at ${origin}}`
+    `${chalk.redBright("[ERROR]")} Uncaught exception: ${err} at ${origin}`
   )
   // Application specific logging, throwing an error, or other logic here
 })
@@ -103,7 +103,7 @@ async function doEverything(token, tokens) {
                   totalJoined
                 )} servers and failed to join ${gradient.passion(
                   failed
-                )} servers}`
+                )} servers`
               )
 
               process.title = `Joined: ${totalJoined} | Failed: ${failed}`
@@ -121,7 +121,7 @@ async function doEverything(token, tokens) {
                         "[SUCCESS]"
                       )} Boosted Server as ${gradient.cristal(
                         client.user.tag
-                      )}}`
+                      )}`
                     )
                   }, 500)
                 })
@@ -145,7 +145,7 @@ async function doEverything(token, tokens) {
                   totalJoined
                 )} servers and failed to join ${gradient.passion(
                   failed
-                )} servers}`
+                )} servers`
               )
 
               process.title = `Joined: ${totalJoined} | Failed: ${failed}`
