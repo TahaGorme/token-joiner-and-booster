@@ -1,3 +1,6 @@
+# Patched
+This script has been patched. to buy a working joiner (proxyless), dm me on discord @uutu or on telegram @tahagorme
+
 # Discord Server Joiner and Booster
 
 Discord Server Joiner and Booster is a script that allows you to automatically join a Discord server using multiple user tokens and boost them. This script also supports server boosting and 2captcha API and Capmonster.cloud API key for captcha solving.
