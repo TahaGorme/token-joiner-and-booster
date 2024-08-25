@@ -1,5 +1,5 @@
 # Patched
-This script has been patched. to buy a working joiner (proxyless), dm me on discord @uutu or on telegram @tahagorme
+This script has been patched. to buy a working joiner (proxyless) or any custom discord tools, dm me on discord @uutu or on telegram @tahagorme
 
 # Discord Server Joiner and Booster
 
