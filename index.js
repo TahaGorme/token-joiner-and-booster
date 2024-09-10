@@ -49,7 +49,7 @@ readTokens()
 const proxies = fs.readFileSync("proxies.txt").toString().split("\n")
 
 async function doEverything(token, tokens) {
-  // console.log(token);
+
   const randomProxy = proxies[Math.floor(Math.random() * proxies.length)]
     ?.replace("\r", "")
     ?.replace("\n", "")
