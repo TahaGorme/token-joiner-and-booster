@@ -1,6 +1,6 @@
 # Patched
 This script has been patched. to buy a **private** working joiner and booster (proxyless) or any custom discord tools, dm me on discord @uutu or on telegram @tahagorme
-https://discord.gg/AcnHWra4Ya
+https://discord.gg/QRdbUxAEa7
 
 # Discord Server Joiner and Booster
 
