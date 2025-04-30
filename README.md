@@ -3,11 +3,6 @@ This script has been updated and rewritten. to buy a **private** working joiner 
 https://discord.gg/QRdbUxAEa7
 
 
-
-https://github.com/user-attachments/assets/ec6fa7f2-2818-4635-9095-5b497e912361
-
-
-
 https://github.com/user-attachments/assets/a373d920-79f9-4ec6-abaa-4bafa4663f7a
 
 
