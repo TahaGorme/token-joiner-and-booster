@@ -3,7 +3,8 @@ This script has been updated and rewritten. to buy a **private** working joiner 
 https://discord.gg/QRdbUxAEa7
 
 
-https://github.com/user-attachments/assets/a373d920-79f9-4ec6-abaa-4bafa4663f7a
+https://github.com/user-attachments/assets/b96ff8d5-61d6-447d-804c-6cc15cf629c5
+
 
 
 also checkout my free mass dm tool https://github.com/TahaGorme/discord-mass-dm-tool 
