@@ -2,6 +2,8 @@
 This script has been updated and rewritten. to buy a **private** working joiner or booster  or any custom discord tools, dm me on discord @uutu or on telegram @tahagorme
 https://discord.gg/QRdbUxAEa7
 
+![image](https://github.com/user-attachments/assets/abaee64d-a849-4a44-a4e1-b2226b095569)
+
 
 https://github.com/user-attachments/assets/b96ff8d5-61d6-447d-804c-6cc15cf629c5
 
