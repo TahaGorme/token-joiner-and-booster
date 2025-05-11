@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/b96ff8d5-61d6-447d-804c-6cc15cf629c5
 
 
 
-also checkout my free mass dm tool https://github.com/TahaGorme/discord-mass-dm-tool 
+also checkout my free mass dm tool. https://github.com/TahaGorme/discord-mass-dm-tool 
 # Discord Server Joiner and Booster
 
 Discord Server Joiner and Booster is a script that allows you to automatically join a Discord server using multiple user tokens and boost them. This script also supports server boosting and 2captcha API and Capmonster.cloud API key for captcha solving.
