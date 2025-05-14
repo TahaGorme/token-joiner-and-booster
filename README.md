@@ -1,4 +1,4 @@
-# Updated (May 2025)
+# Updated (May 2025)!
 This script has been updated and rewritten. to buy a **private** working joiner or booster  or any custom discord tools, dm me on discord @uutu or on telegram @tahagorme
 https://discord.gg/QRdbUxAEa7
 https://discord.gg/tommyinit
