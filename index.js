@@ -1,4 +1,4 @@
-// this has been patched. 
+// this has been patched..
 // to purchase a private joiner and boost tool, dm me on discord @uutu or on telegram @tahagorme
 const chalk = require("chalk")
 console.log(`This script has been patched, to purchase the unpatched version, contact me on discord @uutu or on telegram @tahagorme`)
