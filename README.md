@@ -1,6 +1,6 @@
 # Updated (June 2025)!
 This script has been updated and rewritten. to buy a **private** working joiner or booster  or any custom discord tools, dm me on discord @vedora.org or on telegram @tahagorme
-https://discord.gg/c5zRpMjY
+https://discord.gg/vedora
 
 ![image](https://github.com/user-attachments/assets/abaee64d-a849-4a44-a4e1-b2226b095569)
 
